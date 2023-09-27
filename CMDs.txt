@@ -1,0 +1,9 @@
+*To show the list of collaborators on a Git repository, you can use the following command:
+
+
+>>>: git log --format="%an" | sort -u
+
+
+* combine those three Git commands into a single line using the && operator in the command prompt. Here's the command:
+
+>>>: git add . && git commit -m "Your commit message" && git push
